@@ -1,0 +1,28 @@
+body {
+  margin: 20px;
+}
+
+code {
+  background: #d0d0d5;
+}
+
+canvas {
+  margin: auto;
+	border: 2px solid black;
+	background-color: bisque;
+}
+
+#user-stories {
+  font-size: 1.3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
